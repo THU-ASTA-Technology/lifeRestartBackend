@@ -21,4 +21,5 @@ from LifeRestartBackend import achievement
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('upload/', achievement.upload),
+    path('leaderboard/', achievement.leaderboard),
 ]
